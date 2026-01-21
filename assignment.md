@@ -24,6 +24,8 @@ loan_data = pd.read_csv('https://raw.githubusercontent.com/prasertcbs/basic-data
 # Split features and target
 X = loan_data.drop('Loan_Status', axis=1)
 y = loan_data['Loan_Status']
+
+
 ```
 
 ## Submission
